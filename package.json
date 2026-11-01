@@ -1,0 +1,25 @@
+{
+  "name": "com.gdf.config-import",
+  "version": "1.0.0",
+  "displayName": "GDF Config Import",
+  "description": "Editor-time pipeline that imports CSV / Google Sheets data into com.gdf.config-repository targets. Reflection-based field mapping, SO-based value converters, pluggable data sources (public Google Sheets, OAuth2, local CSV).",
+  "unity": "6000.0",
+  "author": {
+    "name": "GDF"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/AlexPyriel/ConfigImport.git"
+  },
+  "keywords": [
+    "config",
+    "import",
+    "csv",
+    "google-sheets",
+    "editor"
+  ],
+  "dependencies": {
+    "com.gdf.config-repository": "https://github.com/AlexPyriel/ConfigRepository.git#v1.1.0",
+    "com.gdf.addressable-asset-loader": "https://github.com/AlexPyriel/AddressableAssetLoader.git#v1.0.0"
+  }
+}

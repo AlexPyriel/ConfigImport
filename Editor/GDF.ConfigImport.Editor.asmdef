@@ -1,0 +1,20 @@
+{
+    "name": "GDF.ConfigImport.Editor",
+    "rootNamespace": "GDF.ConfigImport",
+    "references": [
+        "GDF.ConfigRepository",
+        "GDF.AddressableAssetLoader",
+        "Unity.Addressables"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

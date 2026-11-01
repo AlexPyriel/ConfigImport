@@ -1,0 +1,4 @@
+Id,Hp,Speed,Name,IsBoss
+pike,120,3.5,Pike,false
+troll,500,1.2,Troll,true
+"glass,golem",80,2.0,"Golem, armored",false
