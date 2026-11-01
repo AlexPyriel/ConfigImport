@@ -72,3 +72,7 @@ The call exits with a non-zero code if any importer fails.
 ## Assembly Definition Notes
 
 `GDF.ConfigImport.Editor` is an editor-only assembly. There is no runtime assembly — importers write ScriptableObject data on disk; the game reads it through `com.gdf.config-repository` at runtime as usual.
+
+## License
+
+MIT. See `LICENSE.md`.
