@@ -4,7 +4,8 @@
     "references": [
         "GDF.ConfigRepository",
         "GDF.AddressableAssetLoader",
-        "Unity.Addressables"
+        "Unity.Addressables",
+        "Unity.Addressables.Editor"
     ],
     "includePlatforms": [
         "Editor"

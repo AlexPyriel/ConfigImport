@@ -10,7 +10,7 @@ namespace GDF.ConfigImport
     /// surface automatically.
     /// </summary>
     [CustomEditor(typeof(ConfigImporter))]
-    public sealed class ConfigImporterEditor : Editor
+    public sealed class ConfigImporterEditor : UnityEditor.Editor
     {
         public override void OnInspectorGUI()
         {
